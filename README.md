@@ -31,7 +31,7 @@ Here is the set of instructions you need to go through in order to get a working
 
 - The first thing we need to create is a Person Group. This private Group can hold up to 1000 individuals. If you need more there is the LargePeronsGroup.
 - In the Person Group we create a new Person (with the second post request) which will return a cryptic ID. KEEP THIS IN YOUR NOTES. Even when you add a name to the person you create - the Identification process will only tell you this ID when it recognizes someone. Do this step for each person you'd like to recognize.
-- Add Face to Person: Here we will upload a good quality image of the (face of) the individual person. Only one face is allowed. This is the crutial part - if the image are bad - the recignizion is bad. I have uplaoaded only one image per person(make sure to update the personID) and got fairly good results. However you can upload up to 248 to tweak the algorithm even more.
+- Add Face to Person: Here we will upload a good quality image of the (face of) the individual person. Only one face is allowed. This is the crutial part - if the image are bad - the recignizion is bad. I have uplaoaded only one image per person(make sure to update the personID) and got fairly good results. However you can upload up to 248 to tweak the algorithm even more. Make sure to have the peoples consent to avoid legal issues.
 - Info and delete requests do what they say on the tin
 - Tain Model -  once you have added all the people you need and provided at least one image for each person - you can train the algorithm. To check if the training is finised use the Status Get request.
 - Finally we can try and do our first test. Which is a two step process. 
